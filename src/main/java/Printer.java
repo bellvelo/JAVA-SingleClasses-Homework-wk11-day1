@@ -1,9 +1,9 @@
 public class Printer {
 
-    private int sheets = 200;
-    private int toner = 200;
+    private int sheets;
+    private int toner;
 
-    public Printer() {
+    public Printer(int sheets, int toner) {
         this.sheets = sheets;
         this.toner = toner;
     }

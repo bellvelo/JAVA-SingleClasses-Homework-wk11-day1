@@ -9,7 +9,7 @@ public class PrinterTest {
 
     @Before
     public void before(){
-        printer1 = new Printer();
+        printer1 = new Printer(200, 200);
     }
 
     @Test
